@@ -8,6 +8,9 @@ div ng-app="todoApp"
       li ng-repeat="task in tasksCtrl.tasks"
         input type="checkbox" ng-model="task.done"
         span class="done-{{task.done}}" {{task.title}}
+
+    div class="alert alert-danger" role="alert" ng-show="tasksCtrl.error"
+      span "{{tasksCtrl.error}}"
     form ng-submit="tasksCtrl.addTask()"
       input type="text" ng-model="tasksCtrl.taskTitle" size="30" placeholder="add new task here"
       input class="btn-primary" type="submit" value="add"
