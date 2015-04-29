@@ -13,4 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require angular
+//= require bootstrap.min
+//= require admin-lte
 //= require_tree .
