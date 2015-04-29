@@ -12,7 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require angular
+//= require angular/angular
 //= require admin-lte/bootstrap/js/bootstrap
 //= require admin-lte/dist/js/app.js
 //= require_tree .
