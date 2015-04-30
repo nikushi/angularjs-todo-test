@@ -10,10 +10,10 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+ *= require admin-lte/bootstrap/css/bootstrap
+ *= require admin-lte/dist/css/AdminLTE
+ *= require admin-lte/dist/css/skins/skin-blue
  *= require_self
  */
 
-@import "admin-lte/bootstrap/css/bootstrap";
-@import "admin-lte/dist/css/AdminLTE";
-@import "admin-lte/dist/css/skins/skin-blue";
 @import "tasks";
